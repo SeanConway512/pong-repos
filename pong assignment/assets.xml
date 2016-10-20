@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assets PGFVersion="0.25" GSCVersion="1.25.5977">
+  <sounds />
+  <images>
+    <image name="WaterOrbSM_dbl">
+      <file name="WaterOrbSM_dbl.png" size="330847" />
+    </image>
+    <image name="ps4_controller_black_512">
+      <file name="ps4_controller_black_512.png" size="34716" />
+    </image>
+    <image name="glossywhite_1">
+      <file name="glossywhite_1.png" size="141168" />
+    </image>
+    <image name="e3-2014-playstation-xbox_1280">
+      <file name="e3-2014-playstation-xbox_1280.png" size="1648033" />
+    </image>
+    <image name="icon-playstation">
+      <file name="icon-playstation.png" size="2892" />
+    </image>
+    <image name="Xbox_one_logo.svg">
+      <file name="Xbox_one_logo.svg.png" size="108668" />
+    </image>
+    <image name="PS4-winning">
+      <file name="PS4-winning.png" size="136890" />
+    </image>
+    <image name="WIN_Television_Logo">
+      <file name="WIN_Television_Logo.png" size="12476" />
+    </image>
+    <image name="ps4-review-update-06">
+      <file name="ps4-review-update-06.png" size="388832" />
+    </image>
+    <image name="Xbox_Console_F_Tilt_TransBG_RGB_2013.1369162707">
+      <file name="Xbox_Console_F_Tilt_TransBG_RGB_2013.1369162707.png" size="649778" />
+    </image>
+  </images>
+  <fonts />
+  <behaviors />
+</assets>

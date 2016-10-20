@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor id="id379757" PGFVersion="0.25" GSCVersion="1.25.5977">
+  <attributes>
+    <text id="name">Player 1</text>
+    <real id="time">0</real>
+    <point id="position">
+      <real id="x">0</real>
+      <real id="y">0</real>
+    </point>
+    <size id="size">
+      <real id="width">500</real>
+      <real id="height">500</real>
+    </size>
+    <angle id="rotation">0</angle>
+    <color id="color">
+      <real id="red">1</real>
+      <real id="green">1</real>
+      <real id="blue">1</real>
+      <real id="alpha">1</real>
+    </color>
+    <image id="image">ps4_controller_black_512</image>
+    <text id="tags" />
+    <boolean id="preloadArt">true</boolean>
+  </attributes>
+  <behaviors>
+    <behavior id="id557818" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">Collide</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">0</real>
+      </attributes>
+      <conditions>
+        <condition id="id199727" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
+          <attributes>
+            <text id="name">default name</text>
+            <index id="conditionType">0</index>
+          </attributes>
+          <predicate type="collision">
+            <attributes>
+              <text id="prototypeKey">id902265</text>
+              <text id="actorTag" />
+              <real id="mode">0</real>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id309573" class="CollideBehavior" enabled="true">
+          <attributes>
+            <text id="name">Collide</text>
+            <text id="bundleName">Collide.behavior</text>
+            <text id="prototypeKey">id902265</text>
+            <text id="actorTag">Ground</text>
+            <index id="mode">0</index>
+          </attributes>
+        </behavior>
+      </behaviors>
+    </behavior>
+    <behavior id="id504018" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">down</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">0</real>
+      </attributes>
+      <conditions>
+        <condition id="id897547" eventType="key" pluginPredicateTypeIndex="0" class="Key">
+          <attributes>
+            <text id="name">default name</text>
+            <index id="conditionType">0</index>
+          </attributes>
+          <predicate type="key">
+            <attributes>
+              <text id="mode">down</text>
+              <text id="keyString">s</text>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id195416" class="MoveBehavior" enabled="true">
+          <attributes>
+            <text id="name">Move</text>
+            <text id="bundleName">Move.behavior</text>
+            <angle id="direction">270</angle>
+            <index id="space">0</index>
+            <index id="moveType">0</index>
+            <real id="speed">150</real>
+          </attributes>
+        </behavior>
+      </behaviors>
+    </behavior>
+    <behavior id="id939703" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">up</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">0</real>
+      </attributes>
+      <conditions>
+        <condition id="id527528" eventType="key" pluginPredicateTypeIndex="0" class="Key">
+          <attributes>
+            <text id="name">default name</text>
+            <index id="conditionType">0</index>
+          </attributes>
+          <predicate type="key">
+            <attributes>
+              <text id="mode">down</text>
+              <text id="keyString">w</text>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id128504" class="MoveBehavior" enabled="true">
+          <attributes>
+            <text id="name">Move</text>
+            <text id="bundleName">Move.behavior</text>
+            <angle id="direction">90</angle>
+            <index id="space">0</index>
+            <index id="moveType">0</index>
+            <real id="speed">150</real>
+          </attributes>
+        </behavior>
+      </behaviors>
+    </behavior>
+  </behaviors>
+  <aspects>
+    <graphics>
+      <attributes>
+        <boolean id="visible">true</boolean>
+        <enumeration id="blendingMode">0</enumeration>
+        <enumeration id="horizontalWrap">0</enumeration>
+        <enumeration id="verticalWrap">0</enumeration>
+        <enumeration id="horizontalAnchor">0</enumeration>
+        <enumeration id="verticalAnchor">0</enumeration>
+        <boolean id="flipHorizontally">false</boolean>
+        <boolean id="flipVertically">false</boolean>
+        <integer id="tileWidth">500</integer>
+        <integer id="tileHeight">500</integer>
+      </attributes>
+    </graphics>
+    <motion>
+      <attributes>
+        <point id="linearVelocity">
+          <real id="x">0</real>
+          <real id="y">0</real>
+        </point>
+        <point id="centerOfMass">
+          <real id="x">0</real>
+          <real id="y">0</real>
+        </point>
+        <real id="angularVelocity">0</real>
+        <real id="maxSpeed">0</real>
+        <boolean id="applyMaxSpeed">false</boolean>
+        <boolean id="pin">false</boolean>
+      </attributes>
+    </motion>
+    <physics>
+      <attributes>
+        <real id="density">1000000</real>
+        <real id="friction">3</real>
+        <real id="restitution">3</real>
+        <boolean id="fixedRotation">false</boolean>
+        <boolean id="movable">true</boolean>
+        <enumeration id="collisionShape">0</enumeration>
+        <real id="drag">0</real>
+        <real id="angularDrag">0</real>
+        <boolean id="canSleep">false</boolean>
+        <boolean id="betterColisions">false</boolean>
+      </attributes>
+    </physics>
+  </aspects>
+</actor>

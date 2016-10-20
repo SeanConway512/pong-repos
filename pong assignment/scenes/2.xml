@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene PGFVersion="0.25" GSCVersion="1.25.5977" id="id267885">
+  <layers>
+    <layer id="id879398">
+      <actors>
+        <actor id="id736876" prototype="id682953">
+          <attributes>
+            <point id="position">
+              <real id="x">284</real>
+              <real id="y">229</real>
+            </point>
+            <size id="size">
+              <real id="width">159</real>
+              <real id="height">100</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id310989" prototype="id407950">
+          <attributes>
+            <point id="position">
+              <real id="x">272</real>
+              <real id="y">111</real>
+            </point>
+            <size id="size">
+              <real id="width">429</real>
+              <real id="height">127</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects />
+        </actor>
+      </actors>
+      <attributes>
+        <text id="name">Background</text>
+        <boolean id="scrollable">true</boolean>
+      </attributes>
+    </layer>
+  </layers>
+  <attributes>
+    <text id="name">xbox wins</text>
+    <real id="time">0</real>
+    <size id="size">
+      <real id="width">568</real>
+      <real id="height">320</real>
+    </size>
+    <boolean id="wrapX">false</boolean>
+    <boolean id="wrapY">false</boolean>
+    <point id="gravity">
+      <real id="x">0</real>
+      <real id="y">0</real>
+    </point>
+    <color id="color">
+      <real id="red">0</real>
+      <real id="green">0</real>
+      <real id="blue">0</real>
+      <real id="alpha">1</real>
+    </color>
+    <rect id="camera">
+      <point id="origin">
+        <real id="x">0</real>
+        <real id="y">0</real>
+      </point>
+      <size id="size">
+        <real id="width">568</real>
+        <real id="height">320</real>
+      </size>
+      <size id="trackingArea">
+        <real id="width">488</real>
+        <real id="height">260</real>
+      </size>
+      <real id="rotation">0</real>
+    </rect>
+    <attributes id="autorotate">
+      <boolean id="landscapeLeft">true</boolean>
+      <boolean id="portrait">false</boolean>
+      <boolean id="landscapeRight">false</boolean>
+      <boolean id="portraitUpsideDown">false</boolean>
+    </attributes>
+  </attributes>
+</scene>
